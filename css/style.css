@@ -671,6 +671,11 @@ body {
 	padding: 2rem 0;
 	font-size: 1.4rem;
 }
+
+.footer-list {
+	display: inline-block;
+}
+
 @media (max-width: 56.25em) {
 	.footer {
 		padding: 8rem 0;
@@ -693,13 +698,16 @@ body {
 .footer-logo:hover {
 	transform: scale(1.2);
 }
+
 .footer-navigation {
 	border-top: 1px solid #f1f1f1;
-	padding-top: 2rem;
 	display: inline-block;
+	padding-top: 2rem;
 }
+
 @media (max-width: 56.25em) {
 	.footer-navigation {
+		border-top: 1px solid #f1f1f1;
 		width: 100%;
 		text-align: center;
 	}
