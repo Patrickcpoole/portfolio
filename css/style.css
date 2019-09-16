@@ -64,13 +64,13 @@ body {
 .row [class^='col-']:not(:last-child) {
 	margin-right: 3rem;
 }
-@media (max-width: 56.25em) {
+@media (max-width: 70em) {
 	.row [class^='col-']:not(:last-child) {
 		margin-right: 0;
 		margin-bottom: 3rem;
 	}
 }
-@media (max-width: 56.25em) {
+@media (max-width: 70em) {
 	.row [class^='col-'] {
 		width: 100% !important;
 	}
@@ -172,6 +172,16 @@ body {
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 }
+
+@media (max-width: 75em) {
+	.header {
+		height: 60vh;
+		margin-bottom: 12em;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 52vh, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 52vh, 0 100%);
+	}
+}
+
 @media (max-width: 56.25em) {
 	.header {
 		height: 65vh;
@@ -181,7 +191,7 @@ body {
 	}
 }
 
-@media (max-width: 25em) {
+@media (max-width: 30em) {
 	.header {
 		height: 80vh;
 		margin-bottom: 2em;
@@ -606,7 +616,20 @@ body {
 	width: 5em;
 	height: 5em;
 	margin-top: 50px;
-	margin-left: 15px;
+	margin-left: 2em;
+}
+
+#vvlogo {
+	width: 8em;
+	margin-left: 0em;
+}
+
+@media (max-width: 125em) {
+	#vvlogo {
+		width: 7em;
+		height: 4em;
+		margin-left: 2em;
+	}
 }
 
 .tech {
